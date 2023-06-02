@@ -623,6 +623,7 @@ export function setup() {
  * Auto initializiation.
  */
 function init() {
+  document.body.style.display = 'none';
   setup();
   sampleRUM('top');
 
